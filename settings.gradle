@@ -13,5 +13,9 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Main Display"
+=======
+rootProject.name = "appProject"
+>>>>>>> da984b902e85ad6433617ee663fbcfca4734ed44
 include ':app'

@@ -3,11 +3,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace 'com.example.maindisplay'
     compileSdk 34
 
     defaultConfig {
         applicationId "com.example.maindisplay"
+=======
+    namespace 'com.example.appproject'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.appproject"
+>>>>>>> da984b902e85ad6433617ee663fbcfca4734ed44
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -31,7 +39,11 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
+<<<<<<< HEAD
     implementation 'com.google.android.material:material:1.10.0'
+=======
+    implementation 'com.google.android.material:material:1.9.0'
+>>>>>>> da984b902e85ad6433617ee663fbcfca4734ed44
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
